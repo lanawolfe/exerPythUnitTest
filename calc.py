@@ -1,2 +1,18 @@
-import calc
-import unittest
+def add(x,y):
+    """Add Function"""
+    return x + y
+
+def subtract(x,y):
+    """ Subtract Function"""
+    return x - y
+
+def multiply(x,y):
+    """ Multiply Function"""
+    return x * y
+
+def divide(x,y):
+    """ Divide Function"""
+    if y == 0:
+        raise ValueError('can not divide y zero!')
+    return x/y
+
